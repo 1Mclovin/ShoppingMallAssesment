@@ -6,8 +6,15 @@ public class Main {
 
 
     }
+// uncomment this in a bit
+//    public static double calculation(double[] numberArray){
+//        double addTwoNumbers = 0;
+//        // we need a for loop
+//        for (int x= 2; x< numberArray.length;x++){
+//            addTwoNumbers = addTwoNumbers
+//        }
 
-    public static double calculation(double[] numberArray){
-        return 0.0;
-    }
+
+      //  return 0.0;
+  //  }
 }

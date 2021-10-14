@@ -1,9 +1,9 @@
 package question6;
 
-public class Clothing extends Person{
+public class Clothing {
     private String description;
     private double price;
-    private String size;
+    private enumerationSize size;
 
 
 
@@ -23,15 +23,20 @@ public class Clothing extends Person{
         this.price = price;
     }
 
-    public String getSize() {
+//    public enumerationSize getSize() {
+//        return size;
+//    }
+
+
+    public enumerationSize getSize() {
         return size;
     }
 
-    public void setSize(String size) {
+    public void setSize(enumerationSize size) {
         this.size = size;
     }
 
-    public Clothing(String description, String size, double price){
+    public Clothing(String description, enumerationSize size, double price){
         super();
         this.description = description;
         this.size=size;
@@ -39,4 +44,12 @@ public class Clothing extends Person{
 
     }
 
+    @Override
+    public String toString() {
+        return "Clothing{" +
+                "description='" + description + '\'' +
+                ", price=" + price +
+                ", size='" + size + '\'' +
+                '}';
+    }
 }

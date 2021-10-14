@@ -1,6 +1,6 @@
 package question6;
 
-public interface enumerationSize {
+public enum enumerationSize {
 
     S("Small"),M("Medium"),L("Large"),XL("Extra-Large");
 
@@ -9,4 +9,14 @@ public interface enumerationSize {
     enumerationSize(String size){
         this.size=size;
     }
+
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
+    }
+
+
 }

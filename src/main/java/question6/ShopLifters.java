@@ -1,9 +1,9 @@
 package question6;
 
-public class ShopLifters extends Person implements Discountable{
+public abstract class ShopLifters extends Person implements Discountable{
 
     @Override
-    public double calculateDiscount() {
-        return 0.0;
+    public double calculateDiscount(Clothing clothing) {
+        return 0;
     }
 }

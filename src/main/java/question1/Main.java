@@ -7,11 +7,8 @@ public class Main {
 
     }
 
-  public double x;
-    public double y;
-
     public static double divide(double x, double y){
-        return x/y;
+        return x%y;
     }
 
 }

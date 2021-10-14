@@ -5,8 +5,9 @@ public class Manager extends Employee implements Discountable{
         super(name);
     }
 
+
     @Override
-    public double calculateDiscount() {
+    public double calculateDiscount(Clothing clothing) {
         return 0;
     }
 }
